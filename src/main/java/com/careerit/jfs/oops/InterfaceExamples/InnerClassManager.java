@@ -50,6 +50,7 @@ public class InnerClassManager {
         for(int x:flist){
             if(predicate.test(x)){
                 flist.add(x);
+                // new
             }
         }
         return flist;
