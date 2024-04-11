@@ -1,0 +1,10 @@
+{
+  "name": "Yaswanth",
+  "price": 10,
+  "city": {
+    "region": "south",
+    "address": "asfd",
+    "dno": 123,
+    "email": [1,2,3]
+  }
+}

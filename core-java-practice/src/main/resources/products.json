@@ -1,0 +1,23 @@
+[
+  {
+    "pid": "1001",
+    "pname": "Lenovo",
+    "price": 100000,
+    "brand": "leno",
+    "model": 2024
+  },
+  {
+    "pid": "1002",
+    "pname": "HP",
+    "price": 50000,
+    "brand": "leno",
+    "model": 2023
+  },
+  {
+    "pid": "1003",
+    "pname": "Sony",
+    "price": 110000,
+    "brand": "leno",
+    "model": 2022
+  }
+]
