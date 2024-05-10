@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-cnls27fsc6pc739k96tg-a.oregon-postgres.render.com:5432/learningsql_ks5s
+    username: dbuser
+    password: N0Gt13l9EGhyIurv52DguyQvGpCyJv65
+  jpa:
+      hibernate:
+        ddl-auto: update
+      properties:
+          hibernate:
+            show_sql: true
+            format_sql: true
+

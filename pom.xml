@@ -13,6 +13,9 @@
         <module>core-jdbc-practice</module>
         <module>external-files</module>
         <module>spring-core</module>
+        <module>spring-jdbc</module>
+        <module>learning-spring-boot</module>
+        <module>java-srping-jpa</module>
     </modules>
 
     <properties>
