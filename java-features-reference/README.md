@@ -1,9 +1,12 @@
 # java-features-reference
 
-Interview-focused reference covering Java 8 through Java 25. Each Java version
-has its own package under `src/main/java/com/careerit/java/` with small,
-self-contained, runnable examples and Javadoc that call out the key talking
-points.
+Interview-focused reference covering **Java 8 through Java 25**. Each Java
+version has its own package under `src/main/java/com/careerit/java/` with
+small, self-contained, runnable examples and Javadoc that call out the key
+talking points.
+
+**Start here:** [`STUDY_GUIDE.md`](./STUDY_GUIDE.md) - a week-by-week learning
+path with prompts to answer before reading each file.
 
 ## Prerequisites
 
@@ -37,12 +40,15 @@ Or from an IDE, right-click any file and run it.
 ### Java 8 (LTS, 2014)
 | File | Feature |
 | ---- | ------- |
-| `java08/LambdaExpressions.java` | Lambdas, capture rules, `this` in lambdas |
+| `java08/LambdaExpressions.java` | Lambdas, capture rules, `this` in lambdas, comparator chaining, function composition |
 | `java08/FunctionalInterfaces.java` | `Function`, `Predicate`, `Consumer`, `Supplier`, `UnaryOperator`, `BiFunction`, custom `@FunctionalInterface` |
 | `java08/MethodReferences.java` | All four kinds of method references |
-| `java08/StreamApi.java` | Streams, reductions, grouping, flatMap |
+| `java08/StreamApi.java` | Streams deep-dive: filter/map/reduce, groupingBy, partitioningBy, short-circuiting, flatMap, peek, iterate, "consumed once" rule |
+| `java08/StreamAdvanced.java` | 10 real interview patterns (top customer, dedupe by field, group anagrams, etc.) |
+| `java08/ParallelStreams.java` | When parallel helps, when it hurts, shared state traps |
 | `java08/CollectorsDemo.java` | `groupingBy`, `partitioningBy`, `mapping`, `collectingAndThen` |
-| `java08/OptionalDemo.java` | Correct `Optional` usage |
+| `java08/OptionalDemo.java` | Correct `Optional` usage, anti-patterns, orElse vs orElseGet |
+| `java08/LambdaExceptionHandling.java` | Checked exceptions inside lambdas / streams |
 | `java08/DefaultStaticMethods.java` | Default + static methods on interfaces |
 | `java08/DateTimeApi.java` | `java.time` (Local/Zoned/Instant/Duration/Period) |
 | `java08/CompletableFutureDemo.java` | Async composition, `thenCompose`, `allOf`, error handling |
@@ -130,6 +136,14 @@ Or from an IDE, right-click any file and run it.
 | `java21/StringTemplatesPreview.java` | String templates (preview) |
 | `java21/ScopedValuesPreview.java` | Scoped values (preview) |
 | `java21/UnnamedPatternsPreview.java` | Unnamed variables `_` (preview) |
+
+### Cross-cutting interview patterns
+| File | Content |
+| ---- | ------- |
+| `interviewpatterns/ClassicProblems.java` | 11 classic problems (second-highest salary, char frequency, palindrome, Fibonacci, anagrams, FizzBuzz, ...) solved with modern Java |
+| `interviewpatterns/FunctionalPatterns.java` | Memoization, strategy map, Function.andThen pipeline, "with*" updates on records, higher-order functions, currying |
+| `interviewpatterns/ConcurrencyBasics.java` | Executors, Future, CompletableFuture composition, timeouts, atomic vs synchronized, virtual threads |
+| `interviewpatterns/BeforeAfterJava8.java` | Side-by-side old Java vs modern Java for the same tasks |
 
 ### Future (reference notes only)
 
