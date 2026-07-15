@@ -5,8 +5,13 @@ version has its own package under `src/main/java/com/careerit/java/` with
 small, self-contained, runnable examples and Javadoc that call out the key
 talking points.
 
-**Start here:** [`STUDY_GUIDE.md`](./STUDY_GUIDE.md) - a week-by-week learning
-path with prompts to answer before reading each file.
+**Start here:**
+- [`STUDY_GUIDE.md`](./STUDY_GUIDE.md) - week-by-week learning path with
+  prompts to answer before each file.
+- [`CHEATSHEET.md`](./CHEATSHEET.md) - one-page-per-topic quick reference
+  for last-minute revision.
+- [`INTERVIEW_QA.md`](./INTERVIEW_QA.md) - 60 common interview questions
+  with short honest answers.
 
 ## Prerequisites
 
@@ -141,6 +146,12 @@ Or from an IDE, right-click any file and run it.
 | File | Content |
 | ---- | ------- |
 | `interviewpatterns/ClassicProblems.java` | 11 classic problems (second-highest salary, char frequency, palindrome, Fibonacci, anagrams, FizzBuzz, ...) solved with modern Java |
+| `interviewpatterns/StringProblems.java` | 18 string problems (reverse, palindrome, anagram, longest common prefix, sliding-window longest unique substring, run-length encode, snake->camel, ...) |
+| `interviewpatterns/CollectionsInDepth.java` | ArrayList vs LinkedList, Set/Map variants, Queue/Deque, PriorityQueue, TreeMap navigation, fail-fast iterators, ConcurrentHashMap, CopyOnWriteArrayList, unmodifiable vs immutable |
+| `interviewpatterns/EqualsHashCode.java` | equals/hashCode contract, manual + Objects.hash + records, common mistakes, Comparable vs Comparator |
+| `interviewpatterns/GenericsBasics.java` | Generic classes/methods, bounded types, wildcards, PECS, type erasure |
+| `interviewpatterns/ExceptionHandling.java` | Checked vs unchecked, try-with-resources, multi-catch, exception chaining, suppressed exceptions, custom exceptions, anti-patterns |
+| `interviewpatterns/EnumPatterns.java` | Enum with fields/methods, per-constant behaviour, lambda-in-constant, interface implementation, enum singleton, EnumSet/EnumMap |
 | `interviewpatterns/FunctionalPatterns.java` | Memoization, strategy map, Function.andThen pipeline, "with*" updates on records, higher-order functions, currying |
 | `interviewpatterns/ConcurrencyBasics.java` | Executors, Future, CompletableFuture composition, timeouts, atomic vs synchronized, virtual threads |
 | `interviewpatterns/BeforeAfterJava8.java` | Side-by-side old Java vs modern Java for the same tasks |
