@@ -16,6 +16,7 @@
         <module>spring-jdbc</module>
         <module>learning-spring-boot</module>
         <module>java-srping-jpa</module>
+        <module>java-features-reference</module>
     </modules>
 
     <properties>
